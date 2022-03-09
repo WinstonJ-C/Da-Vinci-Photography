@@ -1,0 +1,151 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Vinci.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <title>Contact</title>
+    <style>
+		#map{
+			height: 550px;
+			width: 100%;
+		}
+        @media only screen and (max-width: 768px){
+            #map{
+                height: 275px;
+			
+            }
+        }
+	</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark text-white shadownav fixed-top" id="navcolor">
+        <div class="container-fluid"> 
+            <a href="photography.html" class="navbar-brand"><span class="rage"style="font-family: 'Allura', cursive; font-size: 30px;">Da Vinci</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+    <span class="navbar-toggler-icon"></span></button> 
+        <div class="collapse navbar-collapse" id="mynav">
+ <ul class="navbar-nav ml-auto">
+	 <li class="nav-item"><a href="portfolio.html" class="nav-link text-white bold">Portfolio</a></li>
+    <li class="nav-item"><a href="gallery.html" class="nav-link text-white bold">Gallery</a></li>
+    <li class="nav-item"><a href="about.html" class="nav-link text-white  bold">About us</a></li>
+	<li class="nav-item"><a href="contact.html" class="nav-link text-dark bold conbtn">Contact</a></li>
+</ul>
+</div>
+</div>
+        </nav>
+        <header>
+            <div class="jumbotron"><h2 class="mt-5">Contact</h2></div>
+        </header>
+            <div class="container mt-5 col-md-10 p-5 text-center">
+                <div class="row"> 
+                    <!-- <div class="col-md-2"></div> -->
+<div class="col-md-6 p-5 font mobile" style="border: 3px solid #ffffff;">
+    <h3 class="text-center">Your Details</h3>
+    <form action="" id="fill">
+        <div class="form-group ">
+            <input type="text" name="" placeholder="First name"  class=" form-control border-zero"id="firstName">
+            <p id="fname"></p>
+            <p id="fnames"></p>
+        </div>
+        <div class="form-group" >
+            <input type="text" name="" placeholder="Last name" class="form-control border-zero" id="lastName">
+            <p id="lname"></p>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email" id="middle" class="form-control border-zero">
+            <p id="message"></p>
+        </div>
+        <div class="form-group"><textarea name="" id="mess" cols="35" rows="6" class="form-control"></textarea>
+               </div>
+       <div class="form-group"> <button class=" btn btn-success btn-block border-zero mt-4" onclick="auth()">Send Message</button></div>
+        </div>
+    </form>
+<div class="col-md-6 recent"> 
+    <div id="map"></div>
+</div>
+<!-- <div class="col-md-2"></div> -->
+</div>
+<div class="row mt-5 text-center">
+    <div class="col-md-1"></div>
+    <div class="col-md-3 m-2 p-3"style="border: 3px solid #ffffff;">
+        <img src="Icon/new/iconmonstr-location-1.svg" alt=""> 
+        <p class="mt-3">Via Donnalbina 35,Dorgali</p>
+    </div>
+    <div class="col-md-3 m-2 p-3 "style="border: 3px solid #ffffff;">
+        <img src="Icon/new/iconmonstr-phone-3.svg" alt=""> 
+        <p class="mt-3">03836847918</p>
+    </div>
+    <div class="col-md-3 p-3 m-2 "style="border: 3px solid #ffffff;">
+        <img src="icon/new/iconmonstr-email-3.svg" alt=""> 
+        <p class="mt-3" >Davinci@.com</p>
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <ul class="social-media">
+               <li class="mb-3"><a href="#"><img src="bootstrap-icons-1.5.0/facebook.svg" alt="" ></a></li>
+               <li class="mb-3"><a href="#"><img src="bootstrap-icons-1.5.0/twitter.svg" alt="" ></a> </li>
+               <li class="mb-3"><a href="#"><img src="bootstrap-icons-1.5.0/instagram.svg" alt=""></a></li>
+            </ul>
+            </div>
+            <footer class="footer mt-5" id="grad">
+                <div class="footercontainer">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Da Vinci Photography</h4>
+                            <ul>
+                                <li><a href="about.html"  class="text-white">About us</a></li>
+                                <li><a href="contact.html"  class="text-white">Contact</a></li>
+                                <li><a href="Portfolio.html"  class="text-white">Portfolio</a></li>
+            
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="gallery.html"  class="text-white">Gallery</a></li>
+                                <li><a href="feedback.html"  class="text-white">FeedBack</a></li>
+                                <li><a href="#"  class="text-white">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col text-capitalize social">
+                            <h4>Social Media</h4>
+                            <ul>
+                                <li><a href="#" class="text-white">Facebook</a></li>
+                                <li><a href="#"  class="text-white">twitter</a></li>
+                                <li><a href="#"  class="text-white">instagram</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 ml-auto text-white">  <p style="font-size: 25px;font-style: italic;text-shadow: 2px 2px blue;" class="text-white bold ml-7 mt-2">...pictures are forever</p></div></div>
+                    </div>
+                    </div>
+                </div>
+            </footer>
+            <script>
+                function initMap(){
+                    var  location = {lat:40.29221000, lng:9.58702000};
+                    var map = new google.maps.Map(document.getElementById("map"),{
+                        zoom: 16,
+                        center: location
+                    });
+                    var marker = new google.maps.Marker({
+                        position: location,
+                        map: map
+                    });
+                }
+                </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap">
+            
+            </script>
+                <script src="js/jquery.js"></script>
+                <script src="js/popper.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="./js/Auth.js"></script>
+                </body>
+                </html>
